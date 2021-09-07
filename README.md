@@ -8,3 +8,7 @@
 
 ##### 运行方式
 直接执行python main.py
+
+##### 查看gpu设备情况
+1. 使用nvcc编译hardware.cu
+2. 运行可执行文件hardware
