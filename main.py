@@ -13,6 +13,8 @@ a = torch.rand(n, device="cuda:0")
 b = torch.rand(n, device="cuda:0")
 cuda_c = torch.rand(n, device="cuda:0")
 
+print(a.shape, b.shape, cuda_c.shape)
+
 ntest = 10
 
 def show_time(func):
